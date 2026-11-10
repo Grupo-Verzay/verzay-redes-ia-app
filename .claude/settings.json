@@ -67,5 +67,19 @@
         ]
       }
     ]
-  }
+  },
+  "permissions": {
+    "defaultMode": "bypassPermissions",
+    "allow": [
+      "Bash",
+      "Edit",
+      "Write",
+      "WebFetch",
+      "WebSearch",
+      "mcp__github",
+      "mcp__claude-code-remote",
+      "mcp__App_Agente_IA"
+    ]
+  },
+  "skipDangerousModePermissionPrompt": true
 }
